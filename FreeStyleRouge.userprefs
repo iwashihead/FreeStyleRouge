@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Pair.cs">
+    <Files>
+      <File FileName="Assets/Scripts/RMap.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RCell.cs" Line="138" Column="74" />
+      <File FileName="Assets/Scripts/RCellData.cs" Line="1" Column="1" />
+      <File FileName="Assets/SampleGameCode/Scripts/DataManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RMapDefine.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RMapDefineData.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Pair.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
