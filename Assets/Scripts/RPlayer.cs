@@ -2,9 +2,9 @@
 using System.Collections;
 
 /// <summary>
-/// 方向、時計周りな感じ
+/// 8方向、時計周りな感じ
 /// </summary>
-public enum RDirection
+public enum RDirection8
 {
 	back		= 0,
 	back_r		= 1,
@@ -14,6 +14,20 @@ public enum RDirection
 	front_l		= 5,
 	left		= 6,
 	back_l		= 7,
+}
+
+/// <summary>
+/// 4方向、時計周りな感じ
+/// </summary>
+public enum RDirection4
+{
+	None = 0,
+	up,
+	right,
+	down,
+	left,
+
+	ALL,
 }
 
 [RequireComponent(typeof(Animator))]

@@ -58,7 +58,7 @@ public class RCell : RObject {
 	/// UVアニメーション時間
 	/// 1コマあたりの時間
 	/// </summary>
-	public float uiAnimationTime = 0.25f;
+	public float uvAnimationTime = 0.25f;
 
 	// タイルマップ用
 	// (タイルマップは1種類20のSpriteが必要 5コマ分だが、それをさらに4分割する必要があるため20)
@@ -95,7 +95,16 @@ public class RCell : RObject {
 
 	void Update()
 	{
-		
+		if (uvAnimationNum <= 1) return;
+		if (isStop) return;
+
+		// アニメーション処理
+		if (timer >= uvAnimationTime) {
+			AnimationNext();
+			timer = 0f;
+		}
+		timer += Time.deltaTime;
+
 	}
 
 
